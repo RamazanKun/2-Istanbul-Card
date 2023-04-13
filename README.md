@@ -7,4 +7,4 @@
 
 <h2>Screenshot / Ekran Görüntüsü:</h2>
 
- ![](ıstanbulgif.gif)
+ ![](istanbul-study.gif)
