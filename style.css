@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+    
+}
+/*Body*/
+body{
+    background-image:linear-gradient(to right, black, transparent), url(arkaplan.yaz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+
+
+
+
+
+/*Header Container*/
+.header{
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10% 0 10%;
+    font-size:18px ;
+
+}
+
+/*Header Right*/
+
+.headerright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right:80px ;
+}
+ul{
+    
+    display: flex;
+    gap: 40px;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    font-weight: 500;
+    transition: transform 1.1s;
+}
+li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(226, 75, 4);
+    display: none;
+    
+   
+   
+}
+li:hover:after{
+   
+    display: block; 
+}
+li:hover{
+    transform: scale(1.1);
+}
+
+
+
+li i{
+    position: absolute;
+    left: -23px;
+    bottom: 4px;
+   color: gray;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.bi{
+    display: none;
+font-size: 30px;}
+/*Header Left*/
+.headerleft img{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left:2px ;
+    box-shadow:  0 0 8px rgb(192, 188, 188);;
+}
+
+.section{
+    display: flex;
+    
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 10%;
+}
+.sectionleft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    width: 600px;
+
+    
+}
+.sectionleft h1{
+    font-size: 100px;
+    color:#fff;
+}
+.sectionleft p{
+    font-size: 20px;
+    color: #fff;
+    
+}
+.sectionleft button{
+    border: none;
+    outline: none;
+    padding: 14px 50px;
+    font-size: 21px;
+    border-radius: 28px;
+    color: #fff;
+    background-color:blueviolet;
+    
+}
+button:hover{
+    opacity: .8;
+}
+.sectionright{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 14px;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+}
+.sectionright .item{
+    color: #fff;
+    border-radius: 15px;
+    transition: 2s transform;
+}
+.sectionright .item:hover{
+    transform: scale(1.1);
+}
+ .item1{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Basilica_Cistern_after_restoration_2022_\(11\).jpg);
+    
+ }
+ .item2{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(kızkulesi.jpg);
+ }
+ .item3{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(haydarpaşa.jpg);
+ }
+ .item4{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(sultanahmet.jpg);
+ }
+ .item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+ }
+ .item h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 8px;
+ }
+ .item a{
+    text-decoration: none;
+    background-color:rgb(77, 97, 3);
+    color: #fff;
+    padding: 10px 36px;
+    border-radius: 20px;
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 20px;
+    
+ }
+ .item a:hover{
+    opacity: .9;
+    background-color: blueviolet;
+ }
+
+ @media (max-width:708px) {
+    nav{
+        display: none;
+    }
+    .bi{
+        display: block;
+    }
+    .section{
+        display: block;
+    }
+    .sectionright{
+        margin-top: 90px;
+    }
+    .sectionleft{
+        width: 400px;
+    }
+    .sectionleft h1{
+        font-size: 80px;
+    }
+
+}
