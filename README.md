@@ -9,5 +9,4 @@
 
  ![](istanbul-study.gif)
 
-# kkkk
-# Second-Study
+
