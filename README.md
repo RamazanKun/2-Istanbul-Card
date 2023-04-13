@@ -1,5 +1,5 @@
 <h1>Istanbul-Card-Visit</h1>
-<h4> Site page about places to visit in istanbul / istanbul'da gezilecek yerlerle ilgili site sayfası</h4>
+<h4> Site page about places to visit in istanbul / İstanbul'da gezilecek yerlerle ilgili site sayfası</h4>
 
 
 <h2>Used Technologies / Kullanılan Teknolojiler</h2>
